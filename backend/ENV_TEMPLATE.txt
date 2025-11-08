@@ -1,0 +1,17 @@
+# Server Configuration
+PORT=8000
+GIN_MODE=debug
+
+# JWT Secret Key (PENTING: Ganti dengan secret key yang kuat di production!)
+SECRET_KEY=your-secret-key-here-change-in-production
+
+# Database Configuration (Aplikasi)
+DB_USER=root
+DB_PASSWORD=
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=spk_profile_matching
+
+# Test Database Configuration (optional, defaults to DB_NAME_test)
+TEST_DB_NAME=spk_profile_matching_test
+
